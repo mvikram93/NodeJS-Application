@@ -1,0 +1,24 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "RBR Web App",
+        "app_desc": "RBR Web App",
+        "node_port": 3000,
+        "json_indentation": 4,
+        "database": "dev-db"
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "test-db"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "staging-db"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "prod-db"
+    }
+}
