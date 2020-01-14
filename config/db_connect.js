@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
     host : 'localhost',
     user : 'foo',
     password : 'bar',
-    database : 'sakila',
+    database : 'test',
     ssl  : {
         rejectUnauthorized: false
       }
